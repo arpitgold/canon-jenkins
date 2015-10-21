@@ -537,6 +537,8 @@ div.pane-header
 {
 	background : #4e4e4e;
 	color : #fff !important;
+	font-weight : normal;
+	
 }
 
 div.pane-header a,
@@ -547,4 +549,62 @@ div.pane-header a:visited:hover
 {
 	background : #4e4e4e;
 	color : #fff !important;
+	font-weight : normal;
 }
+
+#description div
+{
+	display : none;
+}
+
+.logo{
+	margin-top : 0px;
+}
+
+#buildHistory .model-link
+{
+	padding : 0px 0px 0px 0px;
+}
+
+.build-status-link > img[src*="/red.png"],
+.build-status-link > img[src*="/nobuilt.png"],
+.build-status-link > img[src*="/blue.png"],
+.build-status-link > img[src*="/aborted.png"],
+.build-status-link > img[src*="/yellow.png"],
+.build-status-link > img[src*="/red_anime.gif"],
+.build-status-link > img[src*="/nobuilt_anime.gif"],
+.build-status-link > img[src*="/blue_anime.gif"],
+.build-status-link > img[src*="/aborted_anime.gif"],
+.build-status-link > img[src*="/yellow_anime.gif"]
+{
+	margin-top : 0px !important;
+	padding-left : 5px !important;
+	padding-right : 5px !important;
+}
+
+#buildHistory .build-row td:not(.pane-header)
+{
+	padding : 0 0 0 10px;
+}
+
+.build-badge img{
+	margin-left : 5px;
+}
+
+.test-trend-caption
+{
+	padding-top : 30px;
+}
+
+.build-monitor a{
+	color : #fff !important;
+}
+
+#main-panel div
+{
+	background-color : transparent !important;
+}
+/* .build-row-cell .pane.build-name .display-name
+{
+	margin-left : 10px;
+} */
