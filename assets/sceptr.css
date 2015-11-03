@@ -31,11 +31,11 @@
     color: #FFF !important;
     margin: 5px 10px;
 }
-.console-output {
+/* .console-output {
     background: #222;
     color: #fff;
     padding: 10px;
-}
+} */
 #doony-title:hover,
 #doony-title:active,
 #doony-title:focus,
@@ -345,7 +345,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-top: -6px !important;
     margin-bottom: -10px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-top: 18px !important;
@@ -358,7 +358,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-top: -6px !important;
     margin-bottom: -10px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-top: 18px !important;
@@ -371,7 +371,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-top: -6px !important;
     margin-bottom: -10px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-top: 18px !important;
@@ -384,7 +384,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-top: -6px !important;
     margin-bottom: -10px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-top: 18px !important;
@@ -400,7 +400,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-top: -6px !important;
     margin-bottom: -10px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
     padding-top: 18px !important;
@@ -413,7 +413,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-left: -16px !important;
     margin-top: -4px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 33px !important;
@@ -425,7 +425,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-left: -16px !important;
     margin-top: -4px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 33px !important;
@@ -437,7 +437,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-left: -16px !important;
     margin-top: -4px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 33px !important;
@@ -449,7 +449,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-left: -16px !important;
     margin-top: -4px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 33px !important;
@@ -465,7 +465,7 @@ td.progress-bar-left { border: 1px solid #BBBBBB }
     margin-left: -16px !important;
     margin-top: -4px !important;
     width: 0 !important;
-    height: 0 !important;
+    height: 33px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 33px !important;
@@ -600,11 +600,14 @@ div.pane-header a:visited:hover
 	color : #fff !important;
 }
 
-#main-panel div
+/* #main-panel div
 {
 	background-color : transparent !important;
-}
-/* .build-row-cell .pane.build-name .display-name
-{
-	margin-left : 10px;
+	
 } */
+
+TABLE.fileList
+{
+	margin : 20px 0px 0px -20px;
+	width : 120%;
+}
